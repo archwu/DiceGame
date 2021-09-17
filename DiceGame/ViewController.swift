@@ -32,7 +32,7 @@ class ViewController: UIViewController {
         } else {
             score-=1
         }
-        scoreLbl.text = "\(score)"
+        scoreLbl.text = "Score = \(score)"
     }
     @IBAction func lucky7Pressed(_ sender: UIButton) {
         let dice1 = Int.random(in: (1...6))
@@ -46,7 +46,7 @@ class ViewController: UIViewController {
         } else {
             score-=1
         }
-        scoreLbl.text = "\(score)"
+        scoreLbl.text = "Score = \(score)"
     }
     @IBAction func belowPressed(_ sender: UIButton) {
         let dice1 = Int.random(in: (1...6))
@@ -60,7 +60,7 @@ class ViewController: UIViewController {
         } else {
             score-=1
         }
-        scoreLbl.text = "\(score)"
+        scoreLbl.text = "Score = \(score)"
     }
     
 }
